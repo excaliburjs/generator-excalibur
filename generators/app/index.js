@@ -5,7 +5,6 @@ var yosay = require('yosay');
 
 module.exports = yeoman.Base.extend({
   prompting: function () {
-    
     this.log(yosay(
       'Welcome to the ' + chalk.red('Excalibur.js') + ' generator!'
     ));
@@ -26,7 +25,6 @@ module.exports = yeoman.Base.extend({
   },
 
   writing: function () {
-
     // copy all files for now
     this.fs.copy(
       this.templatePath('**/*'),
