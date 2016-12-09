@@ -10,17 +10,18 @@ module.exports = yeoman.Base.extend({
     ));
 
     var prompts = [
-      // {
-      //   type: 'confirm',
-      //   name: 'someAnswer',
-      //   message: 'Would you like to enable this option?',
-      //   default: true
-      // }
+      {
+        type: 'input',
+        name: 'dir',
+        message: 'Specify the directory to generate your game in (default: current)',
+        default: ''
+      }
     ];
 
     return this.prompt(prompts).then(function (props) {
       // To access props later use this.props.someAnswer;
       this.props = props;
+      this.destinationRoot(this.props.dir);
     }.bind(this));
   },
 

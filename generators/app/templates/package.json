@@ -6,6 +6,6 @@
         "start": "./node_modules/.bin/tsc -p game/tsconfig.json"
     },
     "devDependencies": {
-        "typescript": "~1.8.10"
+        "typescript": "latest"
     }
 }
