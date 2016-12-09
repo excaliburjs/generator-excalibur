@@ -14,13 +14,14 @@ module.exports = yeoman.Base.extend({
         type: 'input',
         name: 'dir',
         message: 'Specify the directory to generate your game in (default: current)',
-        default: ''
+        default: '.'
       }
     ];
 
     return this.prompt(prompts).then(function (props) {
-      // To access props later use this.props.someAnswer;
+      
       this.props = props;
+     
       this.destinationRoot(this.props.dir);
     }.bind(this));
   },

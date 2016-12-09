@@ -1,4 +1,4 @@
-# v0.2.0
+# v0.2.1
 
 - Use latest Excalibur and TypeScript packages on install (always up-to-date)
 - Prompt for destination directory
