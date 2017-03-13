@@ -19,9 +19,7 @@ module.exports = yeoman.Base.extend({
     ];
 
     return this.prompt(prompts).then(function (props) {
-      
       this.props = props;
-     
       this.destinationRoot(this.props.dir);
     }.bind(this));
   },
