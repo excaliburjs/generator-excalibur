@@ -8,7 +8,7 @@ First, install [Yeoman](http://yeoman.io) and generator-excalibur using [npm](ht
 
 ```bash
 npm install -g yo
-npm install -g generator-excalibur
+npm install -g @excaliburjs/generator-excalibur
 ```
 
 Then generate your new project:
