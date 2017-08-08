@@ -31,7 +31,7 @@ This will generate a barebones Excalibur project to get you started.
 BSD-2-Clause © [Excalibur.js Team](http://excaliburjs.com)
 
 
-[npm-image]: https://badge.fury.io/js/generator-excalibur.svg
+[npm-image]: https://badge.fury.io/js/%40excaliburjs%2Fgenerator-excalibur.svg
 [npm-url]: https://npmjs.org/package/generator-excalibur
 [travis-image]: https://travis-ci.org/excaliburjs/generator-excalibur.svg?branch=master
 [travis-url]: https://travis-ci.org/excaliburjs/generator-excalibur
