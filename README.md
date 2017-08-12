@@ -14,7 +14,7 @@ npm install -g @excaliburjs/generator-excalibur
 Then generate your new project:
 
 ```bash
-yo excalibur
+yo @excaliburjs/excalibur
 ```
 
 This will generate a barebones Excalibur project to get you started.
